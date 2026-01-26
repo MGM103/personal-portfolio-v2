@@ -1,5 +1,18 @@
 package components
 
 templ Navbar() {
-	<header></header>
+	<header>
+		<span class="logo">MARA</span>
+		<div class="external-links">
+			<button class="nav-btn">
+				@GithubLogo()
+			</button>
+			<button class="nav-btn">
+				@LinkedinLogo()
+			</button>
+			<button class="nav-btn">
+				@ResumeLogo()
+			</button>
+		</div>
+	</header>
 }

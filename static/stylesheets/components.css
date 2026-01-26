@@ -1,0 +1,4 @@
+@layer components;
+
+@import url("./components/navbar.css") layer(components);
+@import url("./components/buttons.css") layer(components);

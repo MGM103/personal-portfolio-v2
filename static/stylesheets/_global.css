@@ -1,0 +1,35 @@
+@layer reset, base, components;
+
+@import url("./reset.css") layer(reset);
+@import url("./base.css") layer(base);
+@import url("./components.css") layer(components);
+
+:root {
+  /* Colour variables */
+  --color-primary: #fcfafa;
+  --color-secondary: #010102;
+  --color-tertiary: #1a1b1d;
+
+  /* Layout variables */
+  --header-height: 64px;
+}
+
+html[data-theme="dark"] {
+  /* Colour variables */
+  --color-primary: #282a2c;
+  --color-secondary: #fcfafa;
+  --color-tertiary: #a69e95;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) {
+    /* Colour variables */
+    --color-primary: #282a2c;
+    --color-secondary: #fcfafa;
+    --color-tertiary: #a69e95;
+  }
+}
+
+main {
+  padding-top: var(--header-height);
+}

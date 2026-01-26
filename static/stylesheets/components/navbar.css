@@ -1,0 +1,27 @@
+@layer components {
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: var(--header-height);
+    left: 0;
+    padding: 0.75rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .logo {
+      font-size: 2rem;
+    }
+
+    .external-links {
+      display: flex;
+      gap: 0.5rem;
+
+      svg {
+        height: 28px;
+        width: 28px;
+        color: var(--color-secondary);
+      }
+    }
+  }
+}
