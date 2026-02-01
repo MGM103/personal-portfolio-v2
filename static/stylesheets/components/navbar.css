@@ -14,14 +14,10 @@
     }
 
     .external-links {
+      align-items: center;
       display: flex;
       gap: 0.5rem;
-
-      svg {
-        height: 28px;
-        width: 28px;
-        color: var(--color-secondary);
-      }
+      justify-content: center;
     }
   }
 }
