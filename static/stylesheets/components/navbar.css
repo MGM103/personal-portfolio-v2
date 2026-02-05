@@ -1,5 +1,10 @@
 @layer components {
   header {
+    background: linear-gradient(
+      180deg,
+      var(--color-primary),
+      oklch(from var(--color-primary) l c h / 0)
+    );
     display: flex;
     justify-content: space-between;
     height: var(--header-height);
@@ -14,10 +19,9 @@
     }
 
     .external-links {
-      align-items: center;
       display: flex;
       gap: 0.5rem;
-      justify-content: center;
+      width: fit-content;
     }
   }
 }
