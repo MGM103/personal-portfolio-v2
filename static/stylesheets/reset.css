@@ -40,10 +40,6 @@
     overflow-x: clip;
   }
 
-  html {
-    /* scroll-behavior: smooth; */
-  }
-
   /* Set core body defaults */
   body {
     min-height: 100dvh;

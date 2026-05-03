@@ -1,9 +1,19 @@
 @layer base {
   @font-face {
-    font-family: "AG Book Rounded";
+    font-family: "Neue Montreal";
     src:
-      url("/static/fonts/AGBookRounded-Regular.woff2") format("woff2"),
-      url("/static/fonts/AGBookRounded-Regular.woff") format("woff");
+      url("/static/fonts/neue_montreal.woff2") format("woff2"),
+      url("/static/fonts/neue_montreal.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Space Mono";
+    src:
+      url("/static/fonts/space_mono.woff2") format("woff2"),
+      url("/static/fonts/space_mono.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -14,10 +24,14 @@
     color: var(--color-secondary);
 
     font-family:
-      "AG Book Rounded",
+      "Space Mono",
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
       sans-serif;
+  }
+
+  main {
+    padding-inline: var(--page-padding);
   }
 }

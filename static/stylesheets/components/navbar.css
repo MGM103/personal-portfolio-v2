@@ -9,7 +9,8 @@
     justify-content: space-between;
     height: var(--header-height);
     left: 0;
-    padding: 0.75rem;
+    padding-block: 0.75rem;
+    padding-inline: var(--page-padding);
     position: fixed;
     top: 0;
     width: 100%;

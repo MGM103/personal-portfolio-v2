@@ -1,4 +1,6 @@
 @layer components;
 
-@import url("./components/navbar.css") layer(components);
 @import url("./components/buttons.css") layer(components);
+@import url("./components/hero_section.css") layer(components);
+@import url("./components/navbar.css") layer(components);
+@import url("./components/typography.css") layer(components);
